@@ -4,7 +4,7 @@
   imageUrl: string | undefined;
   price: number | undefined;
   code: string | undefined;
-  durations: number | undefined;
-  rating: number | undefined;
+  duration: number | undefined;
+  rating!: number;
   releaseDate: string | undefined;
 }
